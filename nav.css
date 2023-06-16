@@ -28,13 +28,14 @@ body {
   position: relative;
   left: 15px;
   border: 3.5px solid green;
+  cursor: pointer;
 }
 .imgLogo img{
   height: 100%;
   width: 100%;
 }
 .headerNav {
-  width: 40%;
+  width: 60%;
 }
 .headerNav ul {
   display: flex;
@@ -44,4 +45,8 @@ body {
 }
 .headerNav ul a {
   color: aliceblue;
+}
+.headerNav ul a:hover{
+  color: yellow;
+  transition: 0.5s;
 }
