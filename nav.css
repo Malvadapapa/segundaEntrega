@@ -22,11 +22,16 @@ body {
 }
 .imgLogo {
   height: 80px;
-  display: flex;
+ width: 80px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
   left: 15px;
+  border: 3.5px solid green;
+}
+.imgLogo img{
+  height: 100%;
+  width: 100%;
 }
 .headerNav {
   width: 40%;
